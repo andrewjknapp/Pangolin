@@ -13,38 +13,59 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 section {
     padding: 10px;
+    position: relative;
 }
 
 section h2 {
     margin: 5px;
+    text-align: center;
 }
 
 section img {
-    float: left;
     height: 300px;
     margin-right: 10px;
+    display: block;
+    margin: 0 auto;
 }
+
 
 section p {
     padding: 10px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+footer {
+    margin-top: 10px;
+    height: 55px;
+    background: olive;
+    padding: 10px;
+}
 
-  footer {
-      margin-top: 10px;
-      height: 50px;
-      background: olive;
-      padding: 10px;
-  }
+footer h3 {
+    margin: auto;
+    text-align: center;
+}
 
-  footer h3 {
-      margin: auto;
-      text-align: center;
-  }
+footer a {
+    display: block;
+    margin: 0 auto 5px auto;
+    text-align: center;
+}
