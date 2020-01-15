@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: olive;
-    
+    text-align: center;
 }
 
 section {
@@ -22,5 +22,29 @@ section h2 {
 }
 
 section img {
+    float: left;
     height: 300px;
+    margin-right: 10px;
 }
+
+section p {
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  footer {
+      margin-top: 10px;
+      height: 50px;
+      background: olive;
+      padding: 10px;
+  }
+
+  footer h3 {
+      margin: auto;
+      text-align: center;
+  }
